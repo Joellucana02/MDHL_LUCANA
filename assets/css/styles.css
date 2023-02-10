@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Ubuntu", sans-serif;
+}
+header {
+  margin: auto;
+
+  width: 1000px;
+  position: relative;
+}
+header .image {
+  background-size: 1000px 300px;
+  width: 1000px;
+  height: 300px;
+  background-image: url("../hockey\ \ 1.jpg");
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+}
+header .image img {
+  width: 1000px;
+}
+header .image:hover {
+  width: 1000px;
+  overflow: hidden;
+  background-image: url("../img/design1_image1.jpg");
+}
+header .image__about {
+  background-size: 1000px 300px;
+  width: 1000px;
+  height: 300px;
+  background-image: url("../hockey\ \ 2.jpg");
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+}
+header .image__about:hover {
+  width: 1000px;
+  overflow: hidden;
+  background-image: url("../img/design1_image2.jpg");
+}
+header nav {
+  display: inline-block;
+  position: absolute;
+  top: 30px;
+  right: 5px;
+  z-index: 10;
+  text-align: center;
+}
+header nav a {
+  font-size: 1.5rem;
+  padding: 0.25rem 1rem;
+  margin: 0.25rem;
+  color: #ffffff;
+  background-color: #4472c4;
+  border: 1px solid #000000;
+  box-shadow: 5px 5px #a6a6a6;
+}
+header h1 {
+  display: inline-block;
+  font-size: 2.5rem;
+}
+main {
+  margin: auto;
+
+  width: 1000px;
+}
+main h2 {
+  text-align: center;
+  font-size: 1.8rem;
+  border: 1px solid #000000;
+}
+main img {
+  height: 200px;
+}
+.main__image {
+  display: inline-block;
+  margin-top: 2rem;
+  vertical-align: top;
+}
+
+.main__articles {
+  display: inline-block;
+  margin-top: 2rem;
+  width: 800px;
+}
+.main__articles article {
+  margin: 1rem;
+  font-size: 1.3rem;
+}
+.main__articles article {
+  margin: 1rem;
+  word-wrap: break-word;
+}
+.main__par p:nth-child(1) {
+  font-size: 1.3rem;
+  margin-top: 3rem;
+}
+.main__par p:nth-child(2) {
+  font-size: 1.3rem;
+  margin-top: 1rem;
+}
+.main__par {
+  width: 800px;
+  display: inline-block;
+}
+a[href="./index.html"] {
+  background-color: green;
+  color: aliceblue;
+}
