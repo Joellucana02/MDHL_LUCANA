@@ -16,7 +16,7 @@ header .image {
   background-size: 1000px 300px;
   width: 1000px;
   height: 300px;
-  background-image: url("../hockey\ \ 1.jpg");
+  background-image: url("../img/hockey_1.jpg");
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -33,7 +33,7 @@ header .image__about {
   background-size: 1000px 300px;
   width: 1000px;
   height: 300px;
-  background-image: url("../hockey\ \ 2.jpg");
+  background-image: url("../img/hockey_2.jpg");
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -108,7 +108,7 @@ main img {
   width: 800px;
   display: inline-block;
 }
-a[href="./index.html"] {
+a[href="#"] {
   background-color: green;
   color: aliceblue;
 }
