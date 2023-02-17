@@ -154,3 +154,19 @@ th {
 .main__info-betable p {
   text-decoration: underline;
 }
+
+.main__rules-content article {
+  list-style-position: inside;
+}
+.main__rules-content article:nth-child(3) ul li li {
+  list-style-position: inside;
+}
+/* .main__rules-content:nth-child(3) p {
+  padding-left: 1rem;
+}
+li::before {
+  content: "\2022";
+  margin-right: 10px;
+}
+ 
+ */
